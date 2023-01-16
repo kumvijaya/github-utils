@@ -7,7 +7,7 @@ This repository keeps the util scripts to interact with GitHub using python
 This uses [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 
 ## Read file content from GitHub
-This CLI/util can used to get github file content for the given org, repo, and file path.
+This CLI/util can be used to get github file content for the given org, repo, and file path.
 
 This module takes below parameters.
 - org -- GitHub org (Example: kumvijaya)
