@@ -10,9 +10,11 @@ This uses [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-2
 This CLI/util can be used to get github file content for the given org, repo, and file path.
 
 This module takes below parameters.
-- org -- GitHub org (Example: kumvijaya)
-- repo -- Repository name (Example: test-repo)
-- path -- File path in the repo (Example: folder1/test.yaml)
+
+- owner -- Provide github user/owner name e.g. kumvijaya
+- repo -- Provide repository name e.g. my-repo
+- branch  -- Provide branch name e.g. master
+- filepath  -- Provide file path in repo e.g. config/settings.yaml
 
 Refer more details [here](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28)
 
